@@ -1,0 +1,83 @@
+<html>
+<head>
+<link rel="stylesheet"href="ss.css">
+  <body>
+<div class="header">
+<h1 class="head">Techgri</h1>
+<div class="menu">
+<a href="">Home|</a>
+<a href="about us.html">About us|</a>
+<a href="crops.html">crops details|</a>
+<a href="#login">login</a>
+</div>
+<div >
+<img class="logo" src="C:\Users\Nivi Dear\Desktop\logo.jpg">
+</div>
+</div>
+
+<div class="home img">
+  
+  <img src="https://img.freepik.com/premium-photo/farmer-is-working-field-with-innovation-technology-smart-farm-system-smart-farming-agriculture-industry-technology-concept_524876-2544.jpg?w=740"alt="farming">
+</div>
+
+<div class="search">
+  <form> <input placeholder="search for more info">
+    <button type="submit">Search</button>
+</form>
+</div>
+
+<h1 class="text">Join our community to <br>cultivate knowledge <br>and grow together</h1>
+<br><center><h1>New Updates</h1>
+</center>
+
+<h2>What is agri-tech?</h2>
+
+<p> Agri-tech, sometimes ag-tech, agtech or digital agriculture, is the application of technology and digital tools to farming. It encompasses a wide range of technologies, including automation, biotechnology, information monitoring and data analysis.
+  Agri-tech can be used to improve efficiency, increase yields, reduce costs and boost sustainability. It has become increasingly important in recent years as demand for food increases and climate change becomes an ever-present threat to food security.
+  Although most used in horticulture and agriculture, agri-tech is also used in forestry, aquaculture and by winemakers for viticulture. </p>
+  
+  <h2>impact of agri-tech on agricultural production</h2>
+  
+  <p>Agri-tech is transforming the agriculture and farming industries, which support roughly 20% of U.S. economic activity, according to the 2023 "Feeding the Economy" report.
+    Agri-tech is used to explore new ways of working in agriculture and to improve existing practices. It can automate the physical labor involved in farming and agriculture, and use the information gained during farming to improve forecasting. Data analytics and machine learning are used to improve decision-making in the agricultural industry by analyzing large amounts of crop production data. The resulting insights are implemented in the field to create automated processes and refine them.
+    Efficient agricultural production has a positive impact on the environment, allowing farmers to implement sustainable practices that reduce their carbon footprints while increasing profits. Agri-tech can also help meet the food needs of a growing global population, which is projected to reach almost 10 billion by 2050, according to the UN's 2022 World Population Prospects.
+    </p>
+    <h2>What is information technology in agri?</h2>
+    <p>Information and communication technology in agriculture (ICT in agriculture), also known as e-agriculture, focuses on the enhancement of agricultural and rural development through improved information and communication processes.
+    </p>
+    <div class="image-slideshow">
+      <div class="image fade">
+      <img src="https://i.pinimg.com/originals/2f/cc/3a/2fcc3afb0872cbc744fd1cce8f839743.png" alt="Mountain Top">
+      <h2>Drones in agri</h2>
+      <p>Agricultural drones are kind of drones with added technologies such as GPS, digital image recorder and sensors. These drones assist farmers to improve field production, and monitor and manage crop growth. Farmers are employing this advanced technology to efficiently use their land, fertilizers, and water and gain better productivity. Moreover, these products help farmers in capturing images of their fields, and giving soil and crop data for helping crop management. Adding equipment such as sensors, GPS and Geographic Information System (GIS) has helped UAVs for better positioning and traveling.</p>
+      </div>        
+      <div class="image fade">
+      <img src="https://gumlet.vikatan.com/vikatan%2F2019-05%2Fec384062-8cc6-42b6-a4d3-ce830f3e0395%2F145809_thumb.jpg" alt="Palm Trees">
+      <h1>Nammazhvar</h1>
+      <p>G.Nammazhvar was an Indian green crusader, agricultural scientist, environmental activist and organic farming expert best known for his work on spreading ecological farming and organic farming.
+      </p></div>        
+      <div class="image fade">
+      <img src="https://d3i2s57s2jetfw.cloudfront.net/wp-content/uploads/2024/01/20d5dc1336fae5ae4b12f33337d37bc4-1200x0-c-default.jpg" alt="Neon Sign">
+       <h2>Smart farming: the future of agriculture</h2>
+       <p>Although modern technologies have been used in agriculture for some time now, the IoT, GPS, big data, drones, and robotics are now taking the cultivation of fruit and vegetables to a completely new level. Read on to find out the potential of smart farming</p>
+      </div>
+    </div>
+
+
+    <script> let index = 0;
+displayImages();
+function displayImages() {
+  let i;
+  const images = document.getElementsByClassName("image");
+  for (i = 0; i < images.length; i++) {
+    images[i].style.display = "none";
+  }
+  index++;
+  if (index > images.length) {
+    index = 1;
+  }
+  images[index-1].style.display = "block";
+  setTimeout(displayImages, 2000); 
+}</script>
+  </body>
+</html>
